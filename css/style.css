@@ -1,4 +1,4 @@
-.body {
+body {
 	font-family: Roboto, sans-serif;
 	font-weight: 400;
 }
@@ -13,7 +13,7 @@
 	justify-content: space-between;
 }
 .search_input{
-	font-family: Roboto, sans-serif;
+	/*font-family: Roboto, sans-serif;*/
 	font-weight: normal;
 	font-style: normal;
 	font-size: 18px;
@@ -36,9 +36,9 @@
 }
 .button_groupe {
 	height: 100%;
-	font-family: Roboto, sans-serif;
-	font-style: normal;
-	font-weight: normal;
+	/*font-family: Roboto, sans-serif;*/
+	/*font-style: normal;*/
+	/*font-weight: normal;*/
 }
 .button {
 	height: 100%;
