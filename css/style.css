@@ -1,3 +1,6 @@
+*{
+	box-sizing: border-box;
+}
 body {
 	font-family: Roboto, sans-serif;
 	font-weight: 400;
@@ -85,4 +88,134 @@ body {
 	width: 1px;
 	margin-left: 34px;
 	background-color: #D4D4D4;
+}
+.conteiner {
+	max-width: 1130px;
+	margin: auto;
+}
+.film {
+	padding: 80px;
+	border-bottom: 1px solid #D4D4D4;
+}
+.film-wrapper{
+	display: flex;
+}
+.film-trailer {
+	display: flex;
+	flex-direction: column;
+	margin-right: 60px;
+}
+.poster {
+	border-top-right-radius: 5px;
+	border-top-left-radius: 5px;
+	width: 358px;
+}
+.trailer-button {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	background-color: white;
+	border: 1px solid #d4d4d4d;
+	border-radius: 0 0 5px 5px;
+	padding-top: 25px;
+	padding-bottom: 25px;
+	cursor: pointer;
+}
+.trailer-button-icon {
+	margin-right: 14px;
+}
+.film-title {
+	font-style: normal;
+	font-weight: 900;
+	font-size: 36px;
+	line-height: 42px;
+	color: #363636;
+	margin-top: 0;
+	margin-bottom: 16px;
+}
+.film-subtitle {
+	font-size: 18px;
+	line-height: 21px;
+	color: #A5A5A5;
+}
+.film-description {
+	font-weight: normal;
+	font-size: 14px;
+	line-height: 150%;
+	color: #000000;
+	max-width: 514px;
+	margin-bottom: 50px;
+}
+.about-film {
+	display: flex;
+	margin-bottom: 50px;
+}
+.about-text {
+	display: block;
+	font-size: 16px;
+	line-height: 19px;
+	margin-bottom: 16px;
+}
+.about-text-bold {
+	display: inline-block;
+	width: 100px;
+	vertical-align: top;
+	font-weight: bold;
+}
+.left-side {
+	margin-right: 40px;
+}
+.film-ratio{
+	display: flex;
+	align-items: center;
+}
+.film-ratio-value {
+	font-size: 28px;
+	font-weight: bold;
+	color: #5671f6;
+}
+.film-ratio-counter {
+	display: flex;
+	width: 100px;
+	height: 100px;
+	align-items: center;
+	justify-content: center;
+	border-radius: 10px;
+	border: 1px solid #5671F6;
+	margin-right: 28px;
+}
+.film-ratio-title {
+	font-weight: bold;
+	font-size: 18px;
+	line-height: 21px;
+	margin-top: 0;
+	margin-bottom: 12px;
+}
+.film-ratio-text{
+	display: block;
+	margin-bottom: 7px;
+	font-size: 16px;
+	line-height: 19px;
+}
+.film-ratio-text-bold{
+	font-weight: bold;
+}
+cast {
+	padding-top: 70px;
+	padding-bottom: 100px;
+}
+.tabs {
+	display: flex;
+	align-items: center;
+}
+.section-title {
+	font-weight: normal;
+	font-size: 24px;
+	line-height: 28px;
+	color: #A5A5A5;
+	margin-right: 30px;
+}
+.section-title.active {
+	color: #363636;
+	font-weight: 900;
 }
