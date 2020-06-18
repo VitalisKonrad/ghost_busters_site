@@ -321,6 +321,7 @@ body {
 	.sign_up {
 		padding: 0 15px;
 	}
+
 	.navigation {
 		margin-right: 20px;
 	}
@@ -331,9 +332,9 @@ body {
 		margin-right: 10px;
 		font-size: 16px;
 	}
-	/*.header_logo:after {*/
-	/*	margin-left: 20px;*/
-	/*}*/
+	.header_logo:after {
+		margin-left: 20px;
+	}
 }
 @media (max-width: 991px) {
 	.conteiner {
@@ -444,9 +445,37 @@ body {
 	.film-description{
 		font-size: 14px;
 		line-height: 150%;
+		margin-bottom: 40px;
+	}
+	.about-film{
+		flex-wrap: wrap;
+		flex-direction: column;
+		margin-bottom: 40px;
+	}
+	.about-text-bold{
+		display: inline-block;
 	}
 	.film-trailer,
 	.poster{
 		width: 100%;
+	}
+	.film-trailer{
+		margin-bottom: 30px;
+	}
+	.card{
+		flex-basis: 100%;
+	}
+	.card-image{
+		width: 60px;
+		height: 60px;
+	}
+	.tabs{
+		margin-bottom: 35px;
+	}
+	.cast{
+		margin-bottom: 50px;
+	}
+	.news-card{
+		flex-basis: 90%;
 	}
 }
